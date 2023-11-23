@@ -1,0 +1,17 @@
+Package: basicInference
+Type: Package
+Title: Basic Inference
+Version: 0.0.1
+Date: 2023-10-30
+Encoding: UTF-8
+Authors@R: c(person(given = "David",
+           family = "Moriña Soler",
+           role = c("aut", "cre"),
+           email = "dmorina@ub.edu",
+           comment = c(ORCID = "0000-0001-5949-7443")))
+Maintainer: David Moriña Soler <dmorina@ub.edu>
+Description: Basic inference for two independent samples.
+Depends: R (>= 2.13.1)
+License: GPL (>= 2)
+NeedsCompilation: no
+RoxygenNote: 7.2.3

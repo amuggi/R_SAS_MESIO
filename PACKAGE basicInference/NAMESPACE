@@ -1,0 +1,9 @@
+# Export all names
+exportPattern(".")
+
+S3method(print, summary.basicInference) #podria ser solo basicInferece ya que es lo que entra en la función
+S3method(summary, basicInference) 
+S3method(plot, basicInference)
+
+# Import all packages listed as Imports or Depends
+importFrom("stats", "t.test") 
